@@ -1,0 +1,13 @@
+{
+    "name": "My News",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "newsPopup.html",
+        "default_icon": "Image/logo.png"
+    },
+    "icons":{
+        "128": "Image/logo.png"
+    },
+    "permissions": ["activeTab",  "http://newsapi.org/v2"]
+}
